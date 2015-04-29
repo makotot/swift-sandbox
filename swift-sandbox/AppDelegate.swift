@@ -18,13 +18,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let menu = NSMenu()
         
         self.statusItem.title = "sandbox"
+        self.statusItem.highlightMode = true
         self.statusItem.menu = menu
+        
+        let menuItem = NSMenuItem()
+        
+        menuItem.title = "sandbox item"
+        
+        menu.addItem(menuItem)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
 
-
 }
-

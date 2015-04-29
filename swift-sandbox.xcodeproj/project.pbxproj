@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A90BA671AF0FBB6005BFFC1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90BA661AF0FBB6005BFFC1 /* Menu.swift */; };
 		910D73C41AE9FF3F00D156B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D73C31AE9FF3F00D156B7 /* AppDelegate.swift */; };
 		910D73C61AE9FF3F00D156B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D73C51AE9FF3F00D156B7 /* ViewController.swift */; };
 		910D73C81AE9FF3F00D156B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910D73C71AE9FF3F00D156B7 /* Images.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A90BA661AF0FBB6005BFFC1 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		910D73BE1AE9FF3F00D156B7 /* swift-sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		910D73C21AE9FF3F00D156B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910D73C31AE9FF3F00D156B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				910D73C71AE9FF3F00D156B7 /* Images.xcassets */,
 				910D73C91AE9FF3F00D156B7 /* Main.storyboard */,
 				910D73C11AE9FF3F00D156B7 /* Supporting Files */,
+				6A90BA661AF0FBB6005BFFC1 /* Menu.swift */,
 			);
 			path = "swift-sandbox";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A90BA671AF0FBB6005BFFC1 /* Menu.swift in Sources */,
 				910D73C61AE9FF3F00D156B7 /* ViewController.swift in Sources */,
 				910D73C41AE9FF3F00D156B7 /* AppDelegate.swift in Sources */,
 			);
